@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.EditTextPreference
+    android:icon="@android:drawable/ic_menu_manage"
+    android:key="name_jog1"
+    android:title="@string/nome_jog1"
+    android:summary="@string/name_jog1"/>
+
+    <androidx.preference.EditTextPreference
+        android:icon="@android:drawable/ic_menu_manage"
+        android:key="name_jog2"
+        android:title="@string/nome_jog2"
+        android:summary="@string/nome_jog2"/>
+</PreferenceScreen>

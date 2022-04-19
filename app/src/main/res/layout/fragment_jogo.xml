@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.JogoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear1">
+        <TextView
+            style="@style/estilo_textview"
+            android:id="@+id/jogador1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome1"
+            android:layout_weight="1"
+            android:background="@color/rosaclaro"
+            android:textColor="@color/rosa"/>
+        <TextView
+            style="@style/estilo_textview"
+            android:id="@+id/placar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/placar1"
+            android:background="@color/rosaclaro"
+            android:textColor="@color/rosa"
+            />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/rosa">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear2">
+        <TextView
+            style="@style/estilo_textview"
+            android:id="@+id/jogador2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nome2"
+            android:background="@color/rosaclaro"
+            android:textColor="@color/rosa"/>
+
+        <TextView
+            style="@style/estilo_textview"
+            android:id="@+id/placar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/placar2"
+            android:background="@color/rosaclaro"
+            android:textColor="@color/rosa"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/bt00"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:textSize="70sp"/>
+
+                <Button
+                    android:id="@+id/bt01"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:textSize="70sp"/>
+
+                <Button
+                    android:id="@+id/bt02"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:textSize="70sp"/>
+
+            </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt10"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textSize="70sp"/>
+
+            <Button
+                android:id="@+id/bt11"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textSize="70sp"/>
+
+            <Button
+                android:id="@+id/bt12"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textSize="70sp"/>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt20"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textSize="70sp"/>
+
+            <Button
+                android:id="@+id/bt21"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textSize="70sp"/>
+
+            <Button
+                android:id="@+id/bt22"
+                android:layout_margin="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:textSize="70sp"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/velha">
+        <TextView
+            style="@style/estilo_textview"
+            android:id="@+id/contvelha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contaVelha"
+            android:layout_weight="1"
+            android:background="@color/rosaclaro"
+            android:textColor="@color/rosa"/>
+
+        <TextView
+            style="@style/estilo_textview"
+            android:id="@+id/numeroVelhas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/placar3"
+            android:background="@color/rosaclaro"
+            android:textColor="@color/rosa"/>
+
+    </LinearLayout>
+
+</LinearLayout>
